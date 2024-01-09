@@ -1,19 +1,19 @@
-# weixq
+# 首页
+## 群列表
+<img src="./readmeImg/首页.png">
 
-## Project setup
-```
-npm install
-```
+# 名片
+## 用户发布的名片
+<img src="./readmeImg/名片.png">
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 换群
+## 用户发布的换群
+<img src="./readmeImg/换群.png">
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 朋友圈
+## 朋友圈列表
+<img src="./readmeImg/朋友圈.png">
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 我的
+## 功能菜单
+<img src="./readmeImg/我的.png">
