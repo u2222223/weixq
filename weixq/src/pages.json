@@ -1,0 +1,132 @@
+{
+	"easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+        "tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+        {
+			"path": "pages/echange/index",
+			"style": {
+				"navigationBarTitleText": "换群"
+			}
+		},
+        {
+			"path": "pages/card/index",
+			"style": {
+				"navigationBarTitleText": "名片"
+			}
+		},
+        {
+			"path": "pages/find/index",
+			"style": {
+				"navigationBarTitleText": "微圈"
+			}
+		},
+        {
+			"path": "pages/profile/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+        {
+			"path": "pages/myPosted/index",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		},
+        {
+			"path": "pages/integral/index",
+			"style": {
+				"navigationBarTitleText": "积分明细"
+			}
+		},
+        {
+			"path": "pages/rewardbill/index",
+			"style": {
+				"navigationBarTitleText": "佣金明细"
+			}
+		},
+        {
+			"path": "pages/userAgreement/index",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+        {
+			"path": "pages/privacyAgreement/index",
+			"style": {
+				"navigationBarTitleText": "隐私协议"
+			}
+		},
+        {
+			"path": "pages/addCard/index",
+			"style": {
+				"navigationBarTitleText": "发布个人名片"
+			}
+		},
+        {
+			"path": "pages/addFind/index",
+			"style": {
+				"navigationBarTitleText": "发布微圈"
+			}
+		},
+        {
+			"path": "pages/addQun/index",
+			"style": {
+				"navigationBarTitleText": "发布群"
+			}
+		}
+	],
+	"tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#1098ff",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "height": "65px",
+        "fontSize": "14px",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "static/img/bnt_1.png",
+                "selectedIconPath": "static/img/bnt_1.png"
+            },
+            {
+                "pagePath": "pages/card/index",
+                "text": "名片",
+                "iconPath": "static/img/bnt_5.png",
+                "selectedIconPath": "static/img/bnt_5.png"
+            },
+            {
+                "pagePath": "pages/echange/index",
+                "text": "换群",
+                "iconPath": "static/img/bnt_2.png",
+                "selectedIconPath": "static/img/bnt_2.png"
+            },
+            {
+                "pagePath": "pages/find/index",
+                "text": "朋友圈",
+                "iconPath": "static/img/bnt_3.png",
+                "selectedIconPath": "static/img/bnt_3.png"
+            },
+            {
+                "pagePath": "pages/profile/index",
+                "text": "我的",
+                "iconPath": "static/img/bnt_4.png",
+                "selectedIconPath": "static/img/bnt_4.png"
+            }
+        ]
+    },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
